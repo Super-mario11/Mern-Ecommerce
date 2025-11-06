@@ -1,4 +1,10 @@
 {
   "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }],
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "build": {
+    "env": {
+      "API_URL": "your_api_url"
+    }
+  },
+  "outputDirectory": "dist"
 }
