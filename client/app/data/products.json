@@ -4,7 +4,7 @@
     "name": "Gaming PC",
     "description": "High-performance gaming PC with latest components.",
     "price": 1500,
-    "imageUrl": "../../public/images/products/gaming-pc.jpg",
+    "imageUrl": "../../images/products/gaming-pc.jpg",
     "category": "Computers"
   },
   {
