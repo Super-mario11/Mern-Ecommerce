@@ -6,7 +6,8 @@
     "dev": "cd client && npm run dev",
     "postinstall": "cd client && npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "vercel-build": "cd client && npm run vercel-build"
+    "vercel-build": "cd client && npm run vercel-build",
+    "build": "cd client && npm run vercel-build"
   },
   "repository": {
     "type": "git",

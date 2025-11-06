@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "build": {
+    "env": {
+      "API_URL": "your_api_url"
+    }
+  },
+  "outputDirectory": "client/dist"
+}
