@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Computers",
+    "imageUrl": "/images/categories/computers.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Peripherals",
+    "imageUrl": "/images/categories/peripherals.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Monitors",
+    "imageUrl": "/images/categories/monitors.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Storage",
+    "imageUrl": "/images/categories/storage.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Graphics Cards",
+    "imageUrl": "/images/categories/graphics-cards.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Processors",
+    "imageUrl": "/images/categories/processors.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Memory",
+    "imageUrl": "/images/categories/memory.jpg"
+  }
+]

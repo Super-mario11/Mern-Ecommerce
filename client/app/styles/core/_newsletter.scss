@@ -1,0 +1,56 @@
+.newsletter-form {
+  p {
+    margin: 10px 10px 20px 0;
+    color: white;
+  }
+  
+  input {
+    border: 1px solid $border-color-default;
+    padding: 10px;
+    font-size: $font-size-medium;
+    border-radius: $border-radius-default;
+    width: 100%;
+    box-sizing: border-box;
+
+    &:focus {
+      outline: none;
+      border-color: $border-focus-color;
+      box-shadow: $outline-box-shadow;
+    }
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: $font-size-medium;
+    border-radius: $border-radius-default;
+    cursor: pointer;
+    margin-top: 10px;
+
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+}
+
+.subscribe {
+  .inline-btn-box {
+    .input-text-block {
+      @include media-breakpoint-between(md, lg) {
+        flex-direction: column;
+
+        .input-text {
+          border-radius: $border-radius-default;
+        }
+
+        .custom-btn-primary {
+          margin-top: 10px;
+          border-left: $border-default !important;
+          border-radius: $border-radius-default !important;
+        }
+      }
+    }
+  }
+}

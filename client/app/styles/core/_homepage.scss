@@ -1,0 +1,121 @@
+.homepage {
+  text-align: center;
+  padding: 50px 0;
+
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banners/banner-2.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+    margin-bottom: 50px;
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      color:  white !important;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: white !important;
+    }
+
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #45a049;
+      }
+    }
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+
+  .products-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    padding: 0 20px;
+
+    .product-card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+      }
+
+      .product-info {
+        padding: 20px;
+      }
+
+      h3 {
+        font-size: 1.4rem;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 15px;
+      }
+
+      .price {
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #4CAF50;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .homepage {
+    .hero {
+      padding: 80px 15px;
+
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    .products-list {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+  }
+}

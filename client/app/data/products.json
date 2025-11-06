@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Gaming PC",
+    "description": "High-performance gaming PC with latest components.",
+    "price": 1500,
+    "imageUrl": "../../public/images/products/gaming-pc.jpg",
+    "category": "Computers"
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "description": "RGB mechanical keyboard with customizable switches.",
+    "price": 120,
+    "imageUrl": "../../images/products/mechanical-keyboard.jpg",
+    "category": "Peripherals"
+  },
+  {
+    "id": 3,
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with long battery life.",
+    "price": 50,
+    "imageUrl": "../../images/products/wireless-mouse.jpg",
+    "category": "Peripherals"
+  },
+  {
+    "id": 4,
+    "name": "4K Monitor",
+    "description": "27-inch 4K UHD monitor with HDR support.",
+    "price": 400,
+    "imageUrl": "../../images/products/4k-monitor.jpg",
+    "category": "Monitors"
+  },
+  {
+    "id": 5,
+    "name": "SSD 1TB",
+    "description": "Fast 1TB Solid State Drive for improved performance.",
+    "price": 100,
+    "imageUrl": "../../images/products/ssd.jpg",
+    "category": "Storage"
+  },
+  {
+    "id": 6,
+    "name": "NVIDIA RTX 3080",
+    "description": "Powerful graphics card for ultimate gaming experience.",
+    "price": 700,
+    "imageUrl": "../../images/products/rtx-3080.jpg",
+    "category": "Graphics Cards"
+  },
+  {
+    "id": 7,
+    "name": "Intel Core i9",
+    "description": "Latest generation Intel Core i9 processor.",
+    "price": 500,
+    "imageUrl": "../../images/products/intel-i9.jpg",
+    "category": "Processors"
+  },
+  {
+    "id": 8,
+    "name": "DDR4 RAM 16GB",
+    "description": "16GB DDR4 RAM for high-speed multitasking.",
+    "price": 80,
+    "imageUrl": "../../images/products/ddr4-ram.jpg",
+    "category": "Memory"
+  }
+]
